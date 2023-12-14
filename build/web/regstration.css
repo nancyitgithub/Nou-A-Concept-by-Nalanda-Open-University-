@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],input[type="date"],textarea{
+    width: 90%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input[type="submit"],input[type="reset"]{
+    width: 30%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: lightgreen;
+    color: black;
+}
+input[type="reset"]{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+input[type="reset"]:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+
+.sp{
+    margin: 30px 20px;
+}
+label{
+    font-size: 20px;
+}
+input[type="text"]:hover,input[type="number"]:hover,input[type="email"]:hover,input[type="password"]:hover,input[type="date"]:hover,textarea:hover{
+    background-color:#c1d0f7; 
+color: black;
+}

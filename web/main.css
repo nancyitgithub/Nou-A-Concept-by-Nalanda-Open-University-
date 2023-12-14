@@ -1,0 +1,43 @@
+.div-1{
+    height: 112%;
+    width: 80%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+ img{
+    height: 10em;
+    width: 10em;
+
+}
+
+.twocard {
+    
+    display: flex;
+  
+}
+.smallcard{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+ @media(max-width:721px){
+    .twocard {
+    
+        display: grid;
+        
+    }
+    
+}
+
+@media(max-width:338px){
+    .div-1{
+        height: 112%;
+        width: 90%;
+        background-color: aquamarine;
+        border-radius: 5px;
+    }
+    
+}
+
